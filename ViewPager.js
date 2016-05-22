@@ -1,6 +1,6 @@
 'use strict';
 
-var React = require('react');
+import React, {PropTypes} from 'react';
 import {
   Dimensions,
   Text,
@@ -8,7 +8,6 @@ import {
   TouchableOpacity,
   PanResponder,
   Animated,
-  PropTypes,
   StyleSheet,
 } from 'react-native';
 
